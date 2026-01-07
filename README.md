@@ -72,18 +72,19 @@ To run the **Hedamo Registry** locally on your machine, follow these steps:
 * This command reads the package.json file and installs all necessary dependencies, including React, TypeScript, and Tailwind CSS:
 ```bash
 npm install
-
+```
 #### Run Development Server
 * Start the Vite development server to view the registry with Hot Module Replacement (HMR):
 ```bash
 npm run dev
+```
 * Once the server is running, open http://localhost:5173 in your browser.  
 
 #### Production Build
 * Generate a highly optimized dist/ folder containing minified assets ready for deployment:
 ```bash
 npm run build
-
+```
   <p align="center">
   © 2026 <b>Hedamo Registry</b>. All rights reserved.
 </p>
